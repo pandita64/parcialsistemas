@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Deportes</title>
+    <style>
+        body {
+            background-color: #87CEFA;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header-container {
+            background-image: url('imagenes/soccer-stadium-night-autobahn-highway-lights-red-F100021565.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 60px;
+            color: white;
+            height: 200px;
+            padding: 77px 80px;
+        }
+
+        /* Estilo para el título principal */
+        .header-container h1 {
+            font-size: 3rem;
+        }
+
+        /* Estilo para el subtítulo */
+        .header-container h2 {
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;  
+            gap: 10px;
+            
+        }
+
+        /* Estilo para centrar el texto y cambiarlo a blanco */
+        .center-text {
+            margin-top: 20px;
+        }
+
+        /* Estilo para la etiqueta de "regresar" */
+        .center-text a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 100px;
+            margin: 0 auto;
+            font-size: 2rem;
+            
+        }
+
+        footer {
+            text-align: center;
+            background-color: #072133e3;
+            padding: 20px;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        img {
+            width: 100%;
+          
+            height: 150px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+           
+            gap: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <header>
+            <h1>Landing Page de Deportes</h1>
+            <h2>¡Encuentra todo lo que necesitas para mantenerte activo!</h2>
+        </header>
+    </div>
+
+    <main>
+        <h2>Galería de fotos</h2>
+        <section>
+            <div class="grid-container">
+                <img src="imagenes/1-img.jfif" alt="Imagen 1">
+                <img src="imagenes/2-img.jfif" alt="Imagen 2">
+                <img src="imagenes/3-img.jfif" alt="Imagen 3">
+                <img src="imagenes/4-img.jfif" alt="Imagen 4">
+            </div>
+            <br>
+        </section>
+        <div class="center-text">
+            <a href="index.html">Regresar</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Landing Page Compleja</p>
+    </footer>
+</body>
+
+</html>
+
+
